@@ -1,0 +1,49 @@
+/* Селектор тега */
+li {
+  color: blue;
+}
+
+/* Селектор класса */
+.red {
+  color: red;
+}
+
+/* Мультиселектор */
+
+/* <p class="fontsize colorpink">Element 2:</p> */
+.fontsize_30 {
+  font-size: 30px;
+}
+.colorpink {
+  color: pink;
+}
+
+/* Идентификатор */
+#green {
+  color: green;
+}
+ul a {
+  color: orange;
+}
+p span {
+  color: yellow;
+}
+
+p {
+  color: turquoise;
+}
+ul span {
+  color: tomato;
+}
+
+.purple {
+  color: purple;
+}
+
+ul li {
+  color: brown;
+}
+
+p + .gray {
+  color: gray;
+}
